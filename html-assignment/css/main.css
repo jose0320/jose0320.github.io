@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+header {
+    background-color: #373535;
+    text-align: center;
+}
+
+.site-title {
+    color: rgb(16, 16, 16);
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #0f0f0f;
+    border-bottom: 2px solid #1b1b1b;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #3f3f40;
+}
+
+nav a:hover {
+    color: rgb(244, 244, 248);
+}
+
+
+article {
+    padding: 20px;
+}
+
+
+blockquote {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+
+
+section {
+    padding: 18px;
+}
+
+#my-image {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(76, 75, 75);
+    box-shadow: 0 0 2px 1px rgb(83, 81, 81);
+}
+
+
+#hobbies {
+    list-style-type: square;
+    background-color: #1b1b1b;
+}
+
+#hobbies li:nth-child(odd) {
+    background-color: #575353;
+}
+
+
+footer {
+    background-color: #373535;
+    text-align: center;
+    padding: 11px;
+}
