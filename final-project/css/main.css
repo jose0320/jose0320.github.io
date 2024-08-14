@@ -1,0 +1,262 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #c78c06;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img.logo {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  header nav ul li a.desired-class {
+    background-color: #c78c06;
+    color: #222;
+  }
+  
+  /* Search Form Styles */
+  .search-form {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+  }
+  
+  .search-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+  }
+  
+  .search-icon {
+    fill: #f1660f;
+  }
+  
+  /* Header Overlay Styles */
+  .header-overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .connect-button {
+    background-color: #c78c06;
+    color: #222;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* About Section */
+  #about {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fbcf69;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .about-image {
+    max-width: 500px;
+    height: auto;
+    flex: 1 1 50%;
+  }
+  
+  .about-text {
+    flex: 1 1 50%;
+    padding: 20px;
+  }
+  
+  /* Service Section */
+  #service {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .service-item {
+    background-color: #fbcf69;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-item img.section-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h2, .service-item p {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+  
+  /* Vision Section */
+  #vision {
+    position: relative;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .vision-overlay {
+    background-image: url('images/vision.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  /* Team Section */
+  #team {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team-content {
+    background-color: #fbcf69;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .team-content h2, .team-content h3, .team-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .contact-container {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #151515;
+    color: #a96836;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #444;
+  }
+  
+  .hour, .contact-location {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .hour table {
+    width: 100%;
+    max-width: 650px;
+    margin: 10px auto;
+    border-collapse: collapse;
+  }
+  
+  .hour th, .hour td {
+    padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  .hour th {
+    background-color: #ffcc00;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+  }
+  
